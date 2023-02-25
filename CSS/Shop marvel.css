@@ -1,0 +1,306 @@
+.logo {
+    float: left;
+    height: 580px;
+    width: 195px;
+    margin-left: 0px;
+    margin-top: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    float: left;
+    margin: 0 50px;
+}
+
+.nav ul li {
+    display: block;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    padding: 10px;
+    font-size: 18px;
+    color: #780c09;
+    line-height: 58px;
+}
+
+.nav ul li a:hover {
+    color: #780c09;
+    border-bottom: 2px solid #780c09;
+}
+
+.search {
+    float: left;
+    margin-left: -51px;
+    margin-top: 17px;
+}
+
+.search input {
+    float: left;
+    font-size: 12px;
+    border: 2px solid #780c09;
+    color: #780c09;
+    border-right: 0;
+    height: 30px;
+    width: 200px;
+    margin-left: 30px;
+    padding-left: 15px;
+}
+
+.search bottun {
+    float: left;
+    height: 30px;
+    width: 28px;
+    border: 2px solid #780c09;
+}
+
+.course {
+    margin-right: 283px;
+    background-color: #fff;
+    height: 1px;
+    width: 102px;
+    float: right;
+    /*添加了浮动的盒子不会有外边距塌陷的问题*/
+    margin-top: 20px;
+}
+
+h1 {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 2px solid #780c09;
+    color: #780c09;
+    font-size: 19px;
+}
+
+.bd {
+    padding: 0 15px;
+}
+
+h4 {
+    color: #780c09;
+    border-bottom: black;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #5e5e5e;
+}
+
+.bd li {
+    border-bottom: #5e5e5e 1px solid;
+}
+
+.bd .more {
+    display: block;
+    font-size: 15px;
+    border: #780c09 1px solid;
+    color: #780c09;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.banner {
+    height: 600px;
+    background-image: url(../images/bg7.jpg);
+    /* background-color: rgba(0, 0, 0, .1); */
+}
+
+.banner .w {
+    height: 600px;
+    width: 824px;
+    /* background: #f7f9fa; */
+}
+
+.banner .w .pic {
+    opacity: 0.9;
+    /* filter: alpha(opacity=40); */
+}
+
+.banner .subnav ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.subnav {
+    float: left;
+    margin-left: -15px;
+    margin-right: 4px;
+    height: 542px;
+    width: 191px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.subnav ul li {
+    height: 10px;
+    line-height: 10px;
+    padding: 20px 20px;
+}
+
+.subnav ul li a span {
+    float: right;
+}
+
+.banner .subnav ul li a:hover {
+    color: #780c09;
+}
+
+.tj {
+    height: 60px;
+    /*父级盒子添加了居中对齐，那么里面的孩子（文字）也就居中对齐了*/
+    line-height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .1);
+}
+
+.tj h3 {
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #780c09;
+}
+
+.tj ul li {
+    float: left;
+    padding: 0 30px;
+}
+
+.tj ul li a {
+    font-size: 14px;
+    color: black;
+    /*只能给a加左边框，要是在li里面加的话，那个边框会和大盒子一样宽，就达不到我们这个现在这个效果了*/
+    border-left: 1px gray solid;
+    padding-left: 20px;
+}
+
+.tj ul li a:hover {
+    color: #780c09;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+.box-hd {
+    height: 60px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #780c09;
+    padding-left: 20px;
+}
+
+.box-hd a {
+    color: #494949;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 30px;
+    float: right;
+}
+
+.box-bd {
+    overflow: hidden;
+}
+
+.box-bd ul li {
+    width: 228px;
+    height: 310px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+
+/*下面这一步是强制把图片设置来与盒子大小一样，用着超级方便*/
+
+.box-bd ul li img {
+    width: 100%;
+}
+
+.box-bd ul li h4 {
+    margin: 0 30px -10px 15px;
+    color: #494949;
+    font-size: 18px;
+}
+
+.box-bd ul li .info span {
+    font-size: 15px;
+    color: #780c09;
+    margin-right: 15px;
+}
+
+.box-bd ul li .info {
+    font-size: 10px;
+    color: #5e5e5e;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+/******************************************************/
+
+.banner .pic {
+    float: left;
+    height: 530px;
+    width: 600px;
+}
+
+.pic {
+    width: 300px;
+    height: 50px;
+    margin: 1px 1px;
+    overflow: hidden;
+}
+
+.pic img {
+    width: 620px;
+    height: 100%;
+}
+
+.pic li {
+    width: 80px;
+    float: left;
+    border-left: 5px solid #780c09;
+    position: relative;
+    /* 这里最后设置一下图片之间的切换时间 */
+    transition: all 1s;
+}
+
+.pic .flag {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.pic:hover li {
+    width: 55px;
+}
+
+.pic li:hover {
+    width: 460px;
+}

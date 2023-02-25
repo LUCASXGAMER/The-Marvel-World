@@ -1,0 +1,113 @@
+.bar {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 500px;
+    border: 1px solid;
+    padding: 1px;
+}
+
+.bar_in {
+    /* position: relative;
+    top: 250px; */
+    float: left;
+    position: relative;
+    width: 10%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 谁做过渡给谁加transition */
+    transition: all .7s;
+    overflow: hidden;
+}
+
+.bar .bot {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/info1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.bar .bar_in:hover {
+    width: 100%;
+}
+
+.bar .bar_in big {
+    font-size: 30rpx;
+    width: 30rpx;
+    font-size: 80px;
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+.bar .bar_in q {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.box {
+    position: absolute;
+    top: 600px;
+    margin: 10px 0;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+
+/* .tran {
+    position: absolute;
+    left: 34%;
+    width: 0px;
+    height: 0px;
+    border: 200px solid transparent;
+    border-top: 200px solid #3e1e13;
+    border-right: 200px solid #3e1e1d;
+    z-index: 1;
+} */
+
+.box1 {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.list {
+    position: absolute;
+    left: 13%;
+    top: 1080px;
+    width: 880px;
+    height: 200px;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+.list ul li {
+    float: left;
+    width: 200px;
+    height: 165px;
+    background-color: aliceblue;
+    margin: 15px 10px;
+}
+
+.list ul li p {
+    margin: 3px 0;
+}
+
+.footer {
+    position: absolute;
+    top: 1350px;
+    background: #000;
+    height: 180px;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 10px;
+    margin: 8px 0;
+}
